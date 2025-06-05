@@ -5,4 +5,6 @@ body {
 footer {
     background-color: rgb(126, 72, 47);
     color: antiquewhite;
+    position: fixed;
+    bottom: 0;
 }
