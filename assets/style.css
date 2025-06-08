@@ -9,10 +9,16 @@ body {
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: burlywood;
+    background-color: cornsilk;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% -6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+    background-color: cornsilk;
+    height: 100%
 }
 
 footer {
