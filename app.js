@@ -5,12 +5,12 @@ function criaCartao(categoria, pergunta, resposta) {
 
     cartao.innerHTML = `
     <div class="cartao__conteudo">
-                   <h3>Revolução francesa</h3> 
+                   <h3>${categoria}</h3> 
                    <div class="cartao__conteudo__pergunta">
-                    <p>Qual evento marcou o início da Revolução francesa?</p>
+                    <p>${pergunta}</p>
                    </div>
                    <div class="cartao__conteudo__resposta">
-                   <p>A queda da Bastilha em 1789</p>
+                   <p>${resposta}</p>
                    </div>
                 </div>
                 `
