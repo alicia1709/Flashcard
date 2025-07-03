@@ -1,3 +1,7 @@
+criaCartao
+    'Revolução Francesa'
+    'Qual evento marcou o início da Revolução francesa?'
+    'A tomada da Bastilha'
 criaCartao(
     'Revolução Francesa',
     'Quais foram os principais nomes da revolução?',
