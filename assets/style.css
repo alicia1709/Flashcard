@@ -10,7 +10,10 @@ body {
 }
 
 #container {
-    display: flex; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding: 4rem;
 }
 
 .cartao {
@@ -71,17 +74,6 @@ body {
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     background-color: rgb(126, 72, 47);
