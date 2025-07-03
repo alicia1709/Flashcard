@@ -1,12 +1,12 @@
 :root {
-    --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --text-color: #000000;
+    --card-front-color: cornsilk;
+    --card-back-color: #8f785d;
 }
 
 body {
-    background: url('img/bg-desktop.webp');
-    font-family: Bai Jamjuree;
+    background-color: rgb(212, 181, 167);
+    font-family: IM Fell English;
 }
 
 #container {
@@ -23,7 +23,6 @@ body {
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
-    /* background-color: aquamarine; */
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
@@ -85,8 +84,8 @@ body {
 
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: rgb(126, 72, 47);
+    color: antiquewhite;
     position: fixed;
     bottom: 0;
     width: 100%;
