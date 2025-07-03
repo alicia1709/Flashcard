@@ -2,7 +2,8 @@ criaCartao
     'Revolução Francesa'
     'Qual evento marcou o início da Revolução francesa?'
     'A tomada da Bastilha'
-criaCartao(
+
+    criaCartao(
     'Revolução Francesa',
     'Quais foram os principais nomes da revolução?',
     'Maximilien Robespierre, Georges Danton, Jean-Paul Marat'
