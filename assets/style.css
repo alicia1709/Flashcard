@@ -95,8 +95,13 @@ footer p {
 }
 
 @media (max-width: 560px) {
+    
+    body {
+        background: url('img/bg-mobile.webp'), no-repeat cover;
+    }
+
     .cartao {
-        flex: 1 0 calc(100% - 1rem);
+        flex: 1 0 calc(100% - 1rem)
     }
 
     .cartao__conteudo h3 {
